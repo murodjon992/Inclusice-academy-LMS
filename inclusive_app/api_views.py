@@ -34,7 +34,6 @@ def user_payload(user):
 # ------------------------------------------------------------------ auth
 @method_decorator(ensure_csrf_cookie, name='dispatch')
 class MeView(APIView):
-    """Joriy foydalanuvchi (yoki null). Shuningdek CSRF cookie'ni o'rnatadi."""
     permission_classes = [AllowAny]
 
     def get(self, request):
