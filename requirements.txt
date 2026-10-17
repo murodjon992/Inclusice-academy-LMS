@@ -1,0 +1,8 @@
+Django==6.0
+djangorestframework>=3.16
+django-crispy-forms
+crispy-bootstrap5
+Pillow
+PyPDF2
+reportlab
+python-dotenv
