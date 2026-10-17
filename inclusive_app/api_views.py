@@ -24,7 +24,6 @@ from .models import (
 
 
 def form_errors(form):
-    """Django forma xatolarini {maydon: [xabar, ...]} ko'rinishida qaytaradi."""
     return {field: [e['message'] for e in errs] for field, errs in form.errors.get_json_data().items()}
 
 
