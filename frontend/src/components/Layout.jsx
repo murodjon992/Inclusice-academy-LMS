@@ -154,7 +154,7 @@ function Footer() {
             <h3 className="footer-heading"><span>Biz bilan bog'lanish</span></h3>
             <ul className="list-unstyled">
               <li><a className="text-light" href="#"><i className="icon-location-arrow"></i> 100258 Andijon viloyati <br /> Buloqboshi tumani,</a></li>
-              <li><a className="text-light" href="#"><i className="icon-phone"></i>+998 00 000 00 00</a></li>
+              <li><a className="text-light" href="#"><i className="icon-phone"></i>+998 90 123 45 67</a></li>
               <li><a className="text-light" href="#"><i className="icon-phone"></i>+998 00 000 00 00</a></li>
               <li><a className="text-light" href="#"><i className="icon-envelope"></i>info@inclusivetalim.uz</a></li>
             </ul>
