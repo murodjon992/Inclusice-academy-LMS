@@ -8,7 +8,6 @@ import os
 
 @receiver(post_save, sender=QuizResult)
 def create_certificate_after_test(sender, instance, created, **kwargs):
-    # 'created' tekshiruvini olib tashlaymiz, chunki update bo'lganda ham o'tgan bo'lishi mumkin
     if not instance.passed:
         return
 
